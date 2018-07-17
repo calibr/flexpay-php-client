@@ -160,6 +160,9 @@ class Client {
         $filtered = array();
         $regexp = '/^(
             version
+            | CCBrand
+            | truncatedPAN
+            | transactionID
             | shopID
             | price(Amount|Currency)
             | paymentMethod
